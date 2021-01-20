@@ -1,0 +1,68 @@
+img {
+    border-radius: 50%;
+    margin-bottom: 50px;
+    height: 200px;  
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(seagreen,dodgerblue,red);
+    background-repeat: no repeat;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1 {
+    text-shadow: 2px 2px #2962FF;
+    font-size: 40px;
+    font-family: 'Potta One', cursive;
+}
+
+#bio {
+    padding: 20px;
+    text-align: center;
+    font-size: 18px
+}
+
+#welcome {
+    z-index: 346;
+}
+
+.menu {
+    list-style: none;
+    font-family: monospace;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    z-index: 347;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    color: cyan;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: dodgerblue;
+    font-family: 'Texturina', serif;
+
+}
